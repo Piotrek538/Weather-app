@@ -1,0 +1,234 @@
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+}
+
+.flex-container {
+    min-height: 600px;
+    
+    padding-top: 59px;
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom,#287ffe,#5eabfd);
+    max-width: 745px;
+    margin: auto;
+    justify-content: center;
+}
+
+.column {
+    width: auto;
+    margin-right: 20px;
+    
+}
+.flex-item {
+    width: 150px;
+    height: 20px;
+    margin: 0px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #e7effe;
+    
+    font-size: 16px;
+    text-align: center;
+}
+.flex-item a {
+    opacity: 0.7;
+    text-decoration: none;
+    color: #e7effe;
+}
+.katowice,.poznan,.krakow,.warszawa,.gdansk,.wroclaw {
+    color:white;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 30px;
+    background-color: #3079fa;
+    opacity: 1;
+}
+/*.flex-item a:hover {
+    color:white;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 30px;
+    background-color: #3079fa;
+    opacity: 1;
+}*/
+p#zegar {
+    text-align: center;
+    font-size: 70px;
+    margin-top:60px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    /*margin-top: 35px;*/
+    margin-bottom: 61px;
+    padding-top:0px;
+    padding-bottom: 0px;
+    color:#e7effe; 
+}
+.cloud1,.cloud3 {
+    position: relative;
+    width:184px;
+    min-height: 95px;
+    margin-top: 204px;
+    color: #0e448e;
+    background-color: white;
+    padding: 5px;
+    /*padding-bottom: 12px;*/
+    margin-bottom:22px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+#temp-png > img {
+    display: block;
+    float: left;
+    margin-left: 15px;
+    margin-right: 0px;
+    /*width:12px;*/
+    padding-top: 14px;
+}
+#wiatr-png > img{
+    display: block;
+    float: left;
+    margin-left: 10px;
+    /*width:20px;*/
+    padding-top: 14px;
+}
+#wilgotnosc-png > img {
+    display: block;
+    float: left;
+    margin-left: 10px;
+    /*width:15px;*/
+    padding-top: 14px;
+}
+#wschod-png > img {
+    display: block;
+    float: left;
+    margin-left: 10px;
+    /*width:25px;*/
+    padding-top: 14px;
+}
+#zachmurzenie-png > img {
+    display: block;
+    float: left;
+    margin-left: 10px;
+    /*width:25px;*/
+    padding-top: 14px;
+}
+#zachod-png > img {
+    display: block;
+    float: left;
+    margin-left: 10px;
+    /*width:25px;*/
+    padding-top: 14px;
+}
+#temp-value,#wiatr-value,#wilgotnosc-value,#wschod-value,#zachmurzenie-value,#zachod-value {
+    font-family: 'Lato',sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color:#0e448e;
+    
+}
+.cloud2{
+    width:184px;
+    min-height: 95px;
+
+    margin-top: 10px;
+    color: #0e448e;
+    background-color: white;
+    padding: 5px;
+    /*padding-bottom:10px; */
+    margin-bottom: 22px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+.cloud4,.cloud5,.cloud6 {
+    position: relative;
+    width:184px;
+    min-height: 95px;
+    margin-top: 10px;
+    color: #0e448e;
+    background-color: white;
+    padding: 5px;
+    padding-bottom: 12px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+#temperatura  {
+    font-family: 'Lato',sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    padding-top: 21px;
+    padding-bottom: 12px;
+    color:#0e448e;
+    
+}
+#wiatr{
+    font-weight: bold;
+    font-size: 12px;
+    padding-top: 18px;
+    padding-bottom: 20px;
+}
+#wschod{
+    font-weight: bold;
+    font-size: 12px;
+    padding-top: 18px;
+    padding-bottom: 22px;
+}
+#zachmurzenie{
+    font-weight: bold;
+    font-size: 12px;
+    padding-top: 18px;
+    padding-bottom: 16px;
+}
+#zachod{
+    font-weight: bold;
+    font-size: 12px;
+    padding-top: 18px;
+    padding-bottom: 22px;
+}
+/*.to-left {
+    text-align: left;
+    margin-left: 65px;
+
+}
+.to-left2 {
+    text-align: left;
+    margin-left:50px;
+}*/
+.marg-from-left {
+    margin-left: 30px;
+}
+#wilgotnosc {
+    font-weight: bold;
+    font-size: 12px;
+    padding-top: 18px;
+    padding-bottom: 14px;
+    /*text-align: left;
+    margin-left:49px;*/
+}
+.right {
+    margin-right: -4px;
+}
+.clear {
+    clear: both;
+}

@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <title>Pogoda</title>
+        <meta charset="UTF-8">
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700&subset=latin-ext' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="flex-container">
+            <div class="column">
+                <div class="flex-item">
+                    <a href="#" id="katowice" onclick="Katowice();">KATOWICE</a>
+                </div>
+                <div class="flex-item">
+                    <a href="#" id="poznan" onclick="Poznan();">POZNAŃ</a>
+                </div>
+                <div class="flex-item cloud1">
+                    <div id="temp-png">
+                        <img src="temperatura.png" alt="temperatura"/>
+                    </div>
+                    <div id="temperatura">
+                        TEMPERATURA
+                    </div>
+                    <div id="temp-value">
+                        21 &#176C
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="flex-item cloud4">
+                    <div id="wiatr-png">
+                        <img src="wiatr.png" alt="wiatr"/>
+                    </div>
+                    <div id="wiatr">
+                        WIATR
+                    </div>
+                    <div id="wiatr-value">21 km/h</div>
+                    <div class="clear"></div>
+
+                </div>
+            </div>
+            <div class="column">
+                <div class="flex-item">
+                    <a href="#" id="krakow" onclick="Krakow();">KRAKÓW</a>
+                </div>
+                <div class="flex-item">
+                    <a href="#" id="warszawa" onclick="Warszawa();">WARSZAWA</a>
+                </div>
+                <p id="zegar">19:02</p>
+                <div class="flex-item cloud2">
+                    <div id="wilgotnosc-png">
+                        <img src="wilgotnosc.png" alt="wilgotnosc"/>
+                    </div>
+                    <div id="wilgotnosc">
+                        WILGOTNOŚĆ
+                    </div>
+                    <div id="wilgotnosc-value">
+                        45 %
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="flex-item cloud5">
+                    <div id="wschod-png">
+                        <img src="wschod i zachod.png" alt="wschod"/>
+                    </div>
+                    <div id="wschod">
+                        WSCHÓD SŁOŃCA
+                    </div>
+                    <div id="wschod-value">05:04</div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="column right">
+                <div class="flex-item">
+                    <a href="#" id="gdansk" onclick="Gdansk();">GDAŃSK</a>
+                </div>
+                <div class="flex-item">
+                    <a href="#" id="wroclaw" onclick="Wroclaw();">WROCŁAW</a>
+                </div>
+                <div class="flex-item cloud3">
+                    <div id="zachmurzenie-png">
+                        <img src="zachmurzenie.png" alt="zachmurzenie"/>
+                    </div>
+                    <div id="zachmurzenie">
+                        ZACHMURZENIE
+                    </div>
+                    <div id="zachmurzenie-value">
+                        0 %
+                    </div>
+                    <div class="clear"></div>
+
+                </div>
+                <div class="flex-item cloud6">
+                    <div id="zachod-png">
+                        <img src="wschod i zachod.png" alt="zachod"/>
+                    </div>
+                    <div id="zachod">
+                        ZACHÓD SŁOŃCA
+                    </div>
+                    <div id="zachod-value">
+                        22:04
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="zegar.js"></script>
+        <script src="miasta.js"></script>
+    </body>
+</html>
